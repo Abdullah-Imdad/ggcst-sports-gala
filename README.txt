@@ -3,7 +3,7 @@ GGCST SPORTS GALA - setup (Roman Urdu)
 1) Firebase Console > Authentication > Sign-in method > Email/Password ON.
    Users tab > Add user: apni developer email+password, aur admin email+password banayein.
 2) index.html me sirf is line ko apni emails se badlein:
-   const CFG={dev:["DEVELOPER_EMAIL@example.com"],admins:["ADMIN_EMAIL@example.com"]}
+   const CFG={dev:["abdullahimdad02@gmail.com"],admins:["ggcst.admin@gmail.com"]}
 3) firestore.rules ke andar wohi emails (chhoti letters me) likhein.
    Firebase Console > Firestore Database > Rules > poora text paste karke Publish.
 4) GitHub par naya repository banayein (Public), in sab files ko upload karein.
