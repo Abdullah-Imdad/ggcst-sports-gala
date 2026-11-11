@@ -2,8 +2,8 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{d}/documents {
     function mail() { return request.auth != null ? request.auth.token.email : ""; }
-    function dev() { return mail() in ["developer_email@example.com"]; }
-    function adm() { return dev() || mail() in ["admin_email@example.com"]; }
+    function dev() { return mail() in ["abdullahimdad02@gmail.com"]; }
+    function adm() { return dev() || mail() in ["ggcst.admin@gmail.com"]; }
     match /app/{x} { allow read: if true; allow write: if adm(); }
     match /stats/{x} { allow read, write: if true; }
     match /regs/{id} {
